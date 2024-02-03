@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377611282B6EA34700DFD530 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 377611272B6EA34700DFD530 /* RealityKitContent */; };
+		3776112A2B6EA34700DFD530 /* BlueBirdVisionPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377611292B6EA34700DFD530 /* BlueBirdVisionPlaygroundApp.swift */; };
+		3776112C2B6EA34700DFD530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776112B2B6EA34700DFD530 /* ContentView.swift */; };
+		3776112E2B6EA34700DFD530 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776112D2B6EA34700DFD530 /* ImmersiveView.swift */; };
+		377611302B6EA34A00DFD530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3776112F2B6EA34A00DFD530 /* Assets.xcassets */; };
+		377611332B6EA34A00DFD530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377611322B6EA34A00DFD530 /* Preview Assets.xcassets */; };
+		3776113E2B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776113D2B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.swift */; };
+		377611492B6EA6B300DFD530 /* BrowserSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377611482B6EA6B300DFD530 /* BrowserSwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3776113A2B6EA34A00DFD530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3776111A2B6EA34700DFD530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377611212B6EA34700DFD530;
+			remoteInfo = BlueBirdVisionPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		377611222B6EA34700DFD530 /* BlueBirdVisionPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueBirdVisionPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377611262B6EA34700DFD530 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		377611292B6EA34700DFD530 /* BlueBirdVisionPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBirdVisionPlaygroundApp.swift; sourceTree = "<group>"; };
+		3776112B2B6EA34700DFD530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3776112D2B6EA34700DFD530 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		3776112F2B6EA34A00DFD530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377611322B6EA34A00DFD530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		377611342B6EA34A00DFD530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377611392B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueBirdVisionPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3776113D2B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBirdVisionPlaygroundTests.swift; sourceTree = "<group>"; };
+		377611482B6EA6B300DFD530 /* BrowserSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserSwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3776111F2B6EA34700DFD530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377611282B6EA34700DFD530 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377611362B6EA34A00DFD530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377611192B6EA34700DFD530 = {
+			isa = PBXGroup;
+			children = (
+				377611242B6EA34700DFD530 /* BlueBirdVisionPlayground */,
+				377611252B6EA34700DFD530 /* Packages */,
+				3776113C2B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests */,
+				377611232B6EA34700DFD530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377611232B6EA34700DFD530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377611222B6EA34700DFD530 /* BlueBirdVisionPlayground.app */,
+				377611392B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377611242B6EA34700DFD530 /* BlueBirdVisionPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				377611472B6EA68000DFD530 /* Component */,
+				377611292B6EA34700DFD530 /* BlueBirdVisionPlaygroundApp.swift */,
+				3776112B2B6EA34700DFD530 /* ContentView.swift */,
+				3776112D2B6EA34700DFD530 /* ImmersiveView.swift */,
+				3776112F2B6EA34A00DFD530 /* Assets.xcassets */,
+				377611342B6EA34A00DFD530 /* Info.plist */,
+				377611312B6EA34A00DFD530 /* Preview Content */,
+			);
+			path = BlueBirdVisionPlayground;
+			sourceTree = "<group>";
+		};
+		377611252B6EA34700DFD530 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				377611262B6EA34700DFD530 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		377611312B6EA34A00DFD530 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				377611322B6EA34A00DFD530 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3776113C2B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				3776113D2B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.swift */,
+			);
+			path = BlueBirdVisionPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		377611472B6EA68000DFD530 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				377611482B6EA6B300DFD530 /* BrowserSwiftUIView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377611212B6EA34700DFD530 /* BlueBirdVisionPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377611412B6EA34A00DFD530 /* Build configuration list for PBXNativeTarget "BlueBirdVisionPlayground" */;
+			buildPhases = (
+				3776111E2B6EA34700DFD530 /* Sources */,
+				3776111F2B6EA34700DFD530 /* Frameworks */,
+				377611202B6EA34700DFD530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueBirdVisionPlayground;
+			packageProductDependencies = (
+				377611272B6EA34700DFD530 /* RealityKitContent */,
+			);
+			productName = BlueBirdVisionPlayground;
+			productReference = 377611222B6EA34700DFD530 /* BlueBirdVisionPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377611382B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377611442B6EA34A00DFD530 /* Build configuration list for PBXNativeTarget "BlueBirdVisionPlaygroundTests" */;
+			buildPhases = (
+				377611352B6EA34A00DFD530 /* Sources */,
+				377611362B6EA34A00DFD530 /* Frameworks */,
+				377611372B6EA34A00DFD530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3776113B2B6EA34A00DFD530 /* PBXTargetDependency */,
+			);
+			name = BlueBirdVisionPlaygroundTests;
+			productName = BlueBirdVisionPlaygroundTests;
+			productReference = 377611392B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3776111A2B6EA34700DFD530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					377611212B6EA34700DFD530 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					377611382B6EA34A00DFD530 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 377611212B6EA34700DFD530;
+					};
+				};
+			};
+			buildConfigurationList = 3776111D2B6EA34700DFD530 /* Build configuration list for PBXProject "BlueBirdVisionPlayground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377611192B6EA34700DFD530;
+			productRefGroup = 377611232B6EA34700DFD530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377611212B6EA34700DFD530 /* BlueBirdVisionPlayground */,
+				377611382B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377611202B6EA34700DFD530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377611332B6EA34A00DFD530 /* Preview Assets.xcassets in Resources */,
+				377611302B6EA34A00DFD530 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377611372B6EA34A00DFD530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3776111E2B6EA34700DFD530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3776112C2B6EA34700DFD530 /* ContentView.swift in Sources */,
+				377611492B6EA6B300DFD530 /* BrowserSwiftUIView.swift in Sources */,
+				3776112A2B6EA34700DFD530 /* BlueBirdVisionPlaygroundApp.swift in Sources */,
+				3776112E2B6EA34700DFD530 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377611352B6EA34A00DFD530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3776113E2B6EA34A00DFD530 /* BlueBirdVisionPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3776113B2B6EA34A00DFD530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377611212B6EA34700DFD530 /* BlueBirdVisionPlayground */;
+			targetProxy = 3776113A2B6EA34A00DFD530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3776113F2B6EA34A00DFD530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = Larry;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = Larry;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		377611402B6EA34A00DFD530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = Larry;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = Larry;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		377611422B6EA34A00DFD530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueBirdVisionPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = H2HVHU95JW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = online.realshuttle.BlueBirdVisionPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		377611432B6EA34A00DFD530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueBirdVisionPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = H2HVHU95JW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = online.realshuttle.BlueBirdVisionPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		377611452B6EA34A00DFD530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2HVHU95JW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = online.realshuttle.BlueBirdVisionPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueBirdVisionPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueBirdVisionPlayground";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		377611462B6EA34A00DFD530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2HVHU95JW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = online.realshuttle.BlueBirdVisionPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueBirdVisionPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueBirdVisionPlayground";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3776111D2B6EA34700DFD530 /* Build configuration list for PBXProject "BlueBirdVisionPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3776113F2B6EA34A00DFD530 /* Debug */,
+				377611402B6EA34A00DFD530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377611412B6EA34A00DFD530 /* Build configuration list for PBXNativeTarget "BlueBirdVisionPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377611422B6EA34A00DFD530 /* Debug */,
+				377611432B6EA34A00DFD530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377611442B6EA34A00DFD530 /* Build configuration list for PBXNativeTarget "BlueBirdVisionPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377611452B6EA34A00DFD530 /* Debug */,
+				377611462B6EA34A00DFD530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		377611272B6EA34700DFD530 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3776111A2B6EA34700DFD530 /* Project object */;
+}
